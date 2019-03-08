@@ -1,16 +1,16 @@
-ExplorerLib
+Explorer Client
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/@owstack/explorer-lib.svg?style=flat-square)](https://www.npmjs.org/package/@owstack/explorer-lib)
-[![Build Status](https://img.shields.io/travis/owstack/explorer-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/explorer-lib)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/explorer-lib.svg?style=flat-square)](https://coveralls.io/r/owstack/explorer-lib)
+[![NPM Package](https://img.shields.io/npm/v/@owstack/explorer-client.svg?style=flat-square)](https://www.npmjs.org/package/@owstack/explorer-client)
+[![Build Status](https://img.shields.io/travis/owstack/explorer-client.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/explorer-client)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/explorer-client.svg?style=flat-square)](https://coveralls.io/r/owstack/explorer-client)
 
-A JavaScript blockchain explorer library.
+A JavaScript blockchain explorer client.
 
 ## Get Started
 
 ```
-npm install @owstack/explorer-lib
+npm install @owstack/explorer-client
 ```
 
 ## Documentation
@@ -27,19 +27,19 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## Building the Browser Bundle
 
-To build a explorer-lib full bundle for the browser:
+To build a explorer-client full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `explorer-lib.js` and `explorer-lib.min.js`.
+This will generate files named `explorer-client.js` and `explorer-client.min.js`.
 
 ## Development & Tests
 
 ```sh
-git clone https://github.com/owstack/explorer-lib
-cd explorer-lib
+git clone https://github.com/owstack/explorer-client
+cd explorer-client
 npm install
 ```
 
@@ -54,6 +54,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/explorer-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/explorer-client/blob/master/LICENSE).
 
 Copyright 2019 Open Wallet Stack.

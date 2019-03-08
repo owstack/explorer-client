@@ -1,8 +1,6 @@
 'use strict';
 
-var explorerLib = {};
+var Client = require('./lib/model/explorer');
+Client.version = 'v' + require('./package.json').version;
 
-explorerLib.version = 'v' + require('./package.json').version;
-explorerLib.Explorer = require('./lib/model/explorer');
-
-module.exports = explorerLib;
+module.exports = Client;

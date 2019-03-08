@@ -15,8 +15,8 @@ bower_components
 report
 .DS_Store
 
-explorer-lib.js
-explorer-lib.min.js
-explorer-lib.js.sig
-explorer-lib.min.js.sig
+explorer-client.js
+explorer-client.min.js
+explorer-client.js.sig
+explorer-client.min.js.sig
 tests.js
